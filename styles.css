@@ -1,0 +1,30 @@
+.fixednav {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* aligns links vertically */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 60px;
+    background-color: #1f2937;
+  }
+
+  .leftnav {
+    flex-grow: 1; /* this is the important bit */
+    color: #F9FAF8;
+    font-size: 24px;
+  }
+  .rightnav{
+      color: #e5e7eb;
+      font-size: 18px;
+  }
+  /* the rest is just for looks */
+  
+  a {
+    padding: 1em;
+    text-decoration: none;
+  }
+  
+
