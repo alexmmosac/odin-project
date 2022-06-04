@@ -1,0 +1,213 @@
+
+* {
+  margin: 0px;
+  font-family: Arvo;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+  color: #3882f6;
+}
+li{
+  list-style: none;
+  float: left;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* backgrounds */
+.Dark_background {
+background-color: #1f2937;
+}
+
+/* sign up buttons */
+.Dark_background .sign_up_btn {
+  border: none;
+}
+.sign_up_btn {
+  background-color: #3882f6;
+  border: 1px solid white;
+  border-radius: 7px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 25px;
+}
+
+/* Start of first_section */
+.first_section_div {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+.first_section_main {
+  width: 35%;
+}
+.first_section_main p {
+  margin: 20px;
+  margin-left: 0px;
+}
+
+/* Navigation unit flex */
+nav {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  padding: 20px 0px;
+  justify-content: space-between;
+}
+
+.Dark_background .Logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+.links {
+  display: flex;
+  width: 100%;
+  
+  justify-content: space-evenly;
+}
+#last_link{
+  padding-right: px;
+}
+
+
+.Dark_background .first_section_image {
+  width: 500px;
+}
+.Dark_background .first_section_subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.Dark_background .first_section_header {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+/* End of First section */
+
+/* Start of Second Section */
+.second_section_figures {
+  width: 200px;
+}
+.second_section_header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.second_section_div {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-evenly;
+  width: 70%;
+  height: 500px;
+}
+.second_section_div .Figures {
+  display: flex;
+  justify-content: space-around;
+}
+.second_section_div .second_section_header {
+  margin: 0px auto;
+}
+/*End of Second Section */
+
+/*Start of Thrid Section */
+.thrid_section_div .quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  opacity: 0.6;
+}
+.thrid_section_div {
+  background-color: #e5e7eb;
+}
+.quote-div {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quote-div div {
+  width: 50%;
+}
+.quote-div div span {
+  float: right;
+  font-size: 32px;
+  font-weight: bolder;
+}
+/*End of Thrid Section */
+
+/*Start of Fourth Section */
+.fourth_section_div div {
+  background-color: #3883f6;
+  border-radius: 10px;
+}
+
+.fourth_section_div div strong {
+  color: white;
+  font-size: 24px;
+}
+.fourth_section_div div p {
+  color: white;
+  font-size: 16px;
+}
+.fourth_section_div {
+  width: 70%;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fourth_section_div div {
+  display: flex;
+}
+.fourth_section_div div .sign_up_div {
+  display: flex;
+  flex-direction: column;
+}
+.fourth_section_div div  {
+  margin: 50px;
+}
+.fourth_section_div div strong{
+  color: white;
+  font-size: 16px;
+}
+/*End of Fourth Section */
+
+/* Start of footer/ Last Section */
+footer {
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+footer span {
+  padding-bottom: 20px;
+}
+footer{
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #1f2937;
+  color: #f9faf8
+}
+
+footer span{
+  padding-bottom: 20px;
+}
