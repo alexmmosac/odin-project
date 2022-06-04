@@ -4,42 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin-Project</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>My Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="navbar">
-        <header>
-            <nav class="container_flex">
-              <div class="leftnav"><h1>Header Logo</h1></div>
-              <div class="rightnav"><a href="#" class="rightnav">Header link one</a><a href="#" class="rightnav">Header link two</a><a  href="#" class="rightnav">Header link three</a></div>
-
-            </nav>
-        </header>
-        <section class="showcase">
-            <div class="container">
-                <div class="grid">
-                  <div class="grid-item-1">
-                    <div class="showcase-text">
-                      <h1>This Website is Awesome</h1>
-                    </div>
-                    <p class="little-info">This is some text under that upper text.</p>
-                    <div class="showcase-form">
-                        <form action="">
-                          <input type="submit" class="btn" value="Sign up">
-                        </form>
-                      
-                    </div>
-                  </div>
-    
-                  <div class="grid-item-2">
-                    <div class="image">
-                      <img src="images/placeholder.webp" alt="">
-                    </div>
-                  </div>
-               </div>
-    
+    <!--Build of Navigation Bar-->
+    <header class="Dark_background">
+    <nav>
+    <div  class="Logo">Header Logo</div>
+        <div class="nav_bar">
+            <ul class ="listoftext">
+                <li><a href="url">Header Link one</a></li> 
+                <li><a href="url">Header link two</a></li> 
+                <li><a href="url">Header link three</a></li>  
+            </ul>
+        </div>
+    </nav>
+    <!--Build of First Section with in the Navigation bar-->
+    <div class="first_section_div">
+        <div class="first_section_main">
+            <h1 class="first_section_header">This website is Awesome</h1>
+            <p class="first_section_subtext">This website has some subtext that goes here under the main title. 
+                It's a smaller font and the color is lower contrast.
+            </p>
+            <button class="sign_up_btn">Sign up</button>
+        </div>
+        <div class="first_section_image">
+            <img src="images/placeholder.webp"/>
+        </div>
+    </div>
+    </header>
+    <!--Build of Second section-->
+    <div class="second_section_div">
+        <div class="second_section_header"><h1>Some Random Information</h1></div>
+        <div class="Figures">
+            <div class="second_section_figures">
+                <img src="images/placeholder.webp"/>
+                <p>This is some subtext under an illustration or image</p>
             </div>
-          </section>
+            <div class="second_section_figures">
+                <img src="images/placeholder.webp"/>
+                <p>This is some subtext under an illustration or image</p>
+            </div>
+            <div class="second_section_figures">
+                <img src="images/placeholder.webp"/>
+                <p>This is some subtext under an illustration or image</p>
+            </div>
+            <div class="second_section_figures">
+                <img src="images/placeholder.webp"/>
+                <p>This is some subtext under an illustration or image</p>
+            </div>
+        </div>
+    </div>
+    <!--Build of Thrid Section-->
+    <div class="thrid_section_div">
+        <div>
+            <p class="quote-text">This is an inspiring quote, or a testimonial from a customer. Mayber it's just filling up space,
+                or maybe people will actually read it. Who knows? All I know is that is looks nice.
+            </p>
+            <span>-Thor, God of Thunder</span>
+        </div>
+    </div>
+    <!--Build of Fourth Section-->
+    <div class="fourt_section_div">
+        <div>
+            <div class="signup_div">
+                <strong>Call to Action! Its time!</strong>
+                <p>Signup for our product by clicking that button</p>
+            </div>
+        </div>
+        <div>
+            <button class="sign_up_btn">Sign up</button>
+        </div>
+    </div>
+    <!--Build of Last Section-->
+    <footer clas="dark_background">
+        <span class="first_section_subtext">Copyright © The Odin Project 2021</span>
+    </footer>
 </body>
 </html>
